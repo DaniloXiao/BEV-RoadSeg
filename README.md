@@ -47,21 +47,21 @@ python3 lidar_pkl_to_bev.py
 and you will get the `img_bev` and `img_cam` results in `datasets/kitti/velodyne`. The segmentation annotation is not provided, hence we need to label drivable aera from img_bev.
 
 
-### Testing on the KITTI dataset
+### Testing on the Road dataset
 You need to setup the `checkpoints` and the `datasets/kitti/testing` folder as mentioned above. Then, run the following script:
 ```
 bash ./scripts/test.sh
 ```
 and you will get the prediction results in `testresults`.
 
-### Detect on the KITTI dataset
+### Detect on the Road dataset
 You need to setup the `checkpoints` and the `datasets/kitti/testing` folder as mentioned above. Then, run the following script:
 ```
 bash ./scripts/detect.sh
 ```
 and you will get the video or img results in `testresults`, `merge img_cam with img_bev`.
 
-### Training on the KITTI dataset
+### Training on the Road dataset
 For training, you need to setup the `datasets/kitti` folder as mentioned above. You can split the original training set into a new training set and a validation set as you like. Then, run the following script:
 ```
 bash ./scripts/train.sh

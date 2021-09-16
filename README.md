@@ -4,7 +4,7 @@ BEV-RoadSeg for Freespace Detection in PyTorch.
 ## Introduction
 This is a repository based on `SNE-Roadseg`, including` Python onnx and tensorRT API` versions. For source code and papers, see: https://github.com/hlwang1124/SNE-RoadSeg.
 
-In this repo, we provide the training and testing setup for the `Ouster-OS1-128 Lidar Road Dataset`.
+In this repo, we provide the training and testing setup for the `Ouster-OS1-128 Lidar Road Dataset`, you can replace it with KITTI Dataset.
 
 <p align="center">
 <img src="doc/roadseg.gif" width="100%"/>
@@ -47,14 +47,14 @@ python3 lidar_pkl_to_bev.py
 and you will get the `img_bev` and `img_cam` results in `datasets/kitti/velodyne`. The segmentation annotation is not provided, hence we need to label drivable aera from img_bev.
 
 
-### Testing for KITTI submission
+### Testing on the KITTI dataset
 You need to setup the `checkpoints` and the `datasets/kitti/testing` folder as mentioned above. Then, run the following script:
 ```
 bash ./scripts/test.sh
 ```
 and you will get the prediction results in `testresults`.
 
-### Detect for KITTI submission
+### Detect on the KITTI dataset
 You need to setup the `checkpoints` and the `datasets/kitti/testing` folder as mentioned above. Then, run the following script:
 ```
 bash ./scripts/detect.sh
@@ -93,17 +93,4 @@ bash ./scripts/tensorRT_detect.sh
 ```
 and you will get the video or img results in `testresults`, `merge img_cam with img_bev`.
 
-
-## Citation
-If you use this code for your research, please cite paper.
-```
-@inproceedings{fan2020sne,
-  title        = {{SNE-RoadSeg}: Incorporating surface normal information into semantic segmentation for accurate freespace detection},
-  author       = {Fan, Rui and Wang, Hengli and Cai, Peide and Liu, Ming},
-  booktitle    = {European Conference on Computer Vision},
-  pages        = {340--356},
-  year         = {2020},
-  organization = {Springer}
-}
-```
 

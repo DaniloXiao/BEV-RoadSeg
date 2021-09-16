@@ -77,6 +77,7 @@ python3 export_onnx.py
 
 ### Build trt engine
 We support many different types of engine export, such as static `fp32, fp16, and int8 quantization` :
+
 fp32, fp16:
 ```
 python3 tensorRT_bulid_engine.py  --onnx_path ./checkpoints/kitti/kitti_net_RoadSeg.onnx --mode fp16

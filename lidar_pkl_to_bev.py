@@ -102,7 +102,7 @@ def main():
                 img_bev = cv2.rotate(img_bev, cv2.ROTATE_180)
 
 
-                img_bev_path='./datasets/kitti/velodyne/img_bev/'#save pth
+                img_bev_path='./datasets/kitti/velodyne/img_bev/'#save path
                 img_cam_path ='./datasets/kitti/velodyne/img_cam/'
                 if not os.path.exists(img_bev_path):
                     os.makedirs(img_bev_path)

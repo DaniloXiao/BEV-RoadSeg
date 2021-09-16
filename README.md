@@ -30,8 +30,8 @@ BEV-RoadSeg
  |  |  |-- testing
  |  |  |  |-- depth_u16
  |  |  |  |-- image_2
- |  |  |-- image_cam #Creates datas for merge_cam_to_bev
- |  |  |-- velodyne #Creates dataset for bev
+ |  |  |-- image_cam #Create datas for merge_cam_to_bev
+ |  |  |-- velodyne #Create dataset for bev
  ...
 ```
 The pretrained weights `kitti_net_RoadSeg.pth` for our RoadSeg-18 can be downloaded from ` GoogleDrive` [here](https://drive.google.com/file/d/1t6qj8O5gEq2Ij7pdXZ5UNQ2Vu3IB1FNb/view?usp=sharing),

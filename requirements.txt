@@ -1,0 +1,20 @@
+#My environment configuration is for reference only, please refer to Dockerfile.
+
+#cuda 11.1,cudnn 8.0.5,python 3.8,ubuntu18.04
+#torch 1.9.0
+#matplotlib 3.2.2
+#tqdm 4.61.2
+#tensorboardX 2.4
+#torchsummary 1.5.1
+#numpy 1.19.5
+#opencv-python 4.1.2.30
+#Pillow 8.2.0
+#torchvision 0.10.0
+#torchfile 0.1.0
+
+#imutils 0.5.4
+
+#installing the system binaries and python package for tensorRT7.x wil be fine, and other version may got some errors
+#pycuda 2021.1
+#tensorrt 7.2.2.3
+

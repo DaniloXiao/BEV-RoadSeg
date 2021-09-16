@@ -86,7 +86,7 @@ int8:
 python3 tensorRT_bulid_engine.py  --onnx_path ./checkpoints/kitti/kitti_net_RoadSeg.onnx --mode int8 --int8_calibration_path ./datasets/kitti/training/image_2/
 ```
 
-###TensorRT detect for KITTI submission
+### TensorRT detect on the Road dataset
 You need to setup the `checkpoints` and the `datasets/kitti/testing` folder as mentioned above. Then, run the following script:
 ```
 bash ./scripts/tensorRT_detect.sh

@@ -1,0 +1,1 @@
+python3 detect.py --dataroot datasets/kitti --dataset kitti --name kitti  --no_label --epoch kitti --output_video_fn roadseg_video

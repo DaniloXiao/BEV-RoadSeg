@@ -16,8 +16,8 @@ class TrainOptions(BaseOptions):
         parser.add_argument('--lr_decay_iters', type=int, default=5000000, help='multiply by a gamma every lr_decay_iters iterations')
         parser.add_argument('--lr_decay_epochs', type=int, default=25, help='multiply by a gamma every lr_decay_epoch epochs')
         parser.add_argument('--lr_gamma', type=float, default=0.9, help='gamma factor for lr_scheduler')
-        parser.add_argument('--data_augment', action='store_true',default=True,help='If true, use data_augment for training')
-        parser.add_argument('--mirror_prob', type=float, default=0.0,help='The probability of mirror_prob augmentation')
+        parser.add_argument('--data_augment', action='store_true',default=False,help='If true, use data_augment for training')
+        parser.add_argument('--mirror_prob', type=float, default=0.5,help='The probability of mirror_prob augmentation')
         parser.add_argument('--rotate_prob',type=float, default=0.5,help='The probability of rotate_prob augmentation')
 
         self.isTrain = True

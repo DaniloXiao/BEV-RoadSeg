@@ -7,7 +7,7 @@ This is a repository based on `SNE-Roadseg`, including` Python onnx and tensorRT
 In this repo, we provide the training and testing setup for the `Ouster-OS1-128 Lidar Road Dataset`, you can replace it with KITTI Dataset.
 
 <p align="center">
-<img src="doc/roadseg.gif" width="80%"/>
+<img src="doc/roadseg.gif" width="60%"/>
 </p>
 
 

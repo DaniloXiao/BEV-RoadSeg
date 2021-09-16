@@ -34,6 +34,9 @@ BEV-RoadSeg
  |  |  |-- velodyne #Creates dataset for bev
  ...
 ```
+The pretrained weights `kitti_net_RoadSeg.pth` for our RoadSeg-18 can be downloaded from ` GoogleDrive` [here](https://drive.google.com/file/d/1t6qj8O5gEq2Ij7pdXZ5UNQ2Vu3IB1FNb/view?usp=sharing),
+` BaiduDrive(code:da16)` [here](https://pan.baidu.com/s/1oaHtXETrvf-rZ0YmVSdhWw).
+
 ## Usage
 
 ### Data preparation

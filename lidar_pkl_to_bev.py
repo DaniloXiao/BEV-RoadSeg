@@ -95,7 +95,7 @@ def main():
                 # pointcloud0 = data_dict['points']['0-Ouster-OS1-128']
                 # pointcloud1 =data_dict['points']['2-VLP-16']
                 # pointcloud2 = data_dict['points']['1-R-Fans-16']
-                # lidar=np.r_[pointcloud0,pointcloud1,pointcloud2]#fuse 3 lidar data
+                # lidar=np.r_[pointcloud0,pointcloud1,pointcloud2]#fuse 3 lidars
                 lidar = removePoints(lidar, boundary)
                 img_bev = makeBVFeature(lidar, DISCRETIZATION, boundary)
                 img_bev = np.uint8(img_bev * 255)

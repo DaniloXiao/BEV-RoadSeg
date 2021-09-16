@@ -2,7 +2,7 @@
 BEV-RoadSeg for Freespace Detection in PyTorch.
 
 ## Introduction
-This is a repository based on `SNE-Roadseg`, including` Python onnx and tensorRT API` versions. For source code and papers, see: https://github.com/hlwang1124/SNE-RoadSeg.
+This is a repository based on `SNE-Roadseg`, including` Python onnx and tensorRT API` versions. For source code and paper, see: https://github.com/hlwang1124/SNE-RoadSeg.
 
 In this repo, we provide the training and testing setup for the `Ouster-OS1-128 Lidar Road Dataset`, you can replace it with KITTI Dataset.
 

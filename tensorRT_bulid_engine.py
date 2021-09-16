@@ -117,7 +117,6 @@ def set_config():
     args = parser.parse_args()
     return args
 
-#--onnx_path model_static.onnx --mode int8 --int8_data_path datasets/kitti/INT8/
 
 
 if __name__ == '__main__':
